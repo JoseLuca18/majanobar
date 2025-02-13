@@ -158,15 +158,15 @@
   }
   
   .card:nth-child(1) {
-    background-image: url('burger.jpeg');
+    background-image: url('americana.jpeg');
   }
   
   .card:nth-child(2) {
-    background-image: url('lomito.jpeg');
+    background-image: url('majano.jpeg');
   }
   
   .card:nth-child(3) {
-    background-image: url('pan.jpeg');
+    background-image: url('calabresa.jpeg');
   }
   /* Footer */
   footer {
