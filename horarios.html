@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horario de Trabajo - Majano Resto Bar</title>
+    <title>Horario de Trabajo - Resto Bar</title>
     <style>
         body {
             font-family: 'Poppins', sans-serif;
@@ -56,6 +56,20 @@
         .button:hover {
             background: #cc5200;
         }
+        .menu-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #222;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .menu-button:hover {
+            background: #444;
+        }
         @media (max-width: 600px) {
             .horario {
                 width: 90%;
@@ -72,7 +86,7 @@
     </style>
 </head>
 <body>
-    <h1>Majano Resto Bar</h1>
+    <h1>Horario de Trabajo - Resto Bar</h1>
     <div class="horario">
         <p><strong>Días de trabajo:</strong></p>
         <div class="dias">
@@ -86,6 +100,7 @@
         <p><strong>Horario:</strong> 19:45 - 01:30</p>
         <button class="button" onclick="alert('¡Te esperamos en nuestro resto bar!')">Más Información</button>
     </div>
+    <br>
+    <a href="index.html" class="menu-button">Volver al Menú Principal</a>
 </body>
 </html>
-
